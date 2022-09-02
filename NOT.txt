@@ -1,6 +1,0 @@
-- Uygulama JDK 17'de çalışmaktadır. JDK 17 olmayan bilgisayar dist>.jar dosyasını çalıştıramaz. Bu sebeple
-sürüm düşürmek veya JDK 17 yüklemek gereklidir. Ayrıca uygulama, JDK 17 içeren küçük monitörlü cihazlarda
-çalıştırıldığında uygulama içerisindeki ikon ve görsellerin kalitesi düşmektedir. 
-
-- dist içindeki .jar dosyası çalıştığında uygulama içerisinde ikonlar gözükmemektedir. Bundan dolayı
-.jar dosyasının kendisi ana klasöre taşınmış olup dist içerisine kısayol oluşturulmuştur.

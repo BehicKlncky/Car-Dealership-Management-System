@@ -157,7 +157,7 @@ public class AboutUs extends javax.swing.JFrame {
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(51, 51, 51));
-        jLabel7.setText("https://github.com/metinabadan/CENG-201-Project");
+        jLabel7.setText("https://github.com/BehicKlncky/Car-Dealership-Management-System");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -177,14 +177,15 @@ public class AboutUs extends javax.swing.JFrame {
                         .addComponent(jLabel10)
                         .addGap(49, 49, 49))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jLabel4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel6)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addComponent(jLabel7))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jLabel4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel6)))
                         .addGap(74, 74, 74))))
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(128, 128, 128)
-                .addComponent(jLabel7)
-                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
